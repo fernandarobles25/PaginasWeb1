@@ -1,8 +1,141 @@
 
-article {
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=M+PLUS+Rounded+1c&family=Nixie+One&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*article {
     border: 5px purple solid;
     padding:  3rem 8rem;
     margin: 2rem 8rem;
 }
 
-/*border, padding y margin se le puede poner solo uno con (border-___)
+/*border, padding y margin se le puede poner solo uno con (border-___)*/
+
+
+
+
+/*Ejemplos id y class
+
+.primer {
+    line-height: 3rem;
+    color: indigo;
+}
+.parrafo {
+    line-height: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dimgrey;
+}
+#list {
+    list-style: none;
+    font-size: .6;
+    color: darkblue;
+
+}*/
+
+/*Reticula*/
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: .5rem;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Estilos footer*/
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    background-color: plum;
+    padding: 3rem;
+    color: rgb(55, 6, 55);
+    font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+/*Estilos navegacion*/
+
+#logo {
+    width: 100px;
+}
+
+nav {
+    background-color: rgb(201, 180, 220);
+    padding: 1rem 3rem;
+   
+}
+
+nav ul {
+   display: flex;
+   justify-content: space-evenly
+   
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white
+}
+nav ul a {
+    font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/*Estilos tipograficos*/
+
+h1 {
+    font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.parrafo {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+.primer {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+figcaption {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: .8rem;
+
+    
+}
+
+/*Estilos imagen*/
+
+#imagen {
+    width: 100%;
+    object-fit: cover;
+}
