@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28Agosto</title>
+    <style>
+        svg {
+            width: 40%;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"></link>
+<head>
+</head>
+<body>
+    <div id="container">
+        <header class="head borde">
+            <p>Header</p>
+        </header>
+        <main class="main borde">
+            <h1>Mickey Mouse</h1>
+            <p>Mickey Mouse es un personaje ficticio estadounidense perteneciente al universo de Disney, que aparece principalmente en dibujos animados, cómics y videojuegos.</p>
+            <div id="my-div"></div>
+        </main>
+        <aside class="aside borde">
+            <p>Aside</p>
+        </aside>
+        <footer class="footer borde">
+            <p>Footer</p>
+        </footer>
+    </div>
+    <script src="js/vivus.js"></script>
+    <script>
+        new Vivus('my-div', {duration: 10, type: 'scenario-sync', file: 'img/mickeycolores.svg'},);
+    </script> 
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal().reveal('.head',{delay: 200, distance: '150%', origin: 'top'});
+        ScrollReveal().reveal('.main',{delay: 500, scale: 0.85 });
+        ScrollReveal().reveal('.aside',{delay: 1000, rotate: { x: 20, z: 20}});
+        ScrollReveal().reveal('.footer',{delay: 1200, distance: '150%', origin: 'bottom'});
+    </script>
+</body>
+</html>

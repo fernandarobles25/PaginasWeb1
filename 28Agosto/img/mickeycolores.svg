@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373.75 310.84">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #eceb90;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #e9c5df;
+      }
+
+      .cls-3 {
+        stroke: #b4dcd8;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #a991c4;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 10px;
+      }
+
+      .cls-6 {
+        stroke: #b7e1f7;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="186.91" cy="191.3" r="107.05"/>
+  <circle class="cls-5" cx="186.91" cy="191.3" r="92.31"/>
+  <circle class="cls-1" cx="186.91" cy="191.3" r="78.17"/>
+  <circle class="cls-6" cx="186.91" cy="191.3" r="65.4"/>
+  <circle class="cls-4" cx="186.91" cy="191.3" r="51.15"/>
+  <circle class="cls-6" cx="186.91" cy="191.3" r="40.29"/>
+  <circle class="cls-2" cx="186.91" cy="191.3" r="29.84"/>
+  <circle class="cls-1" cx="186.91" cy="191.3" r="19.01"/>
+  <circle class="cls-4" cx="303.16" cy="70.6" r="55.3"/>
+  <circle class="cls-1" cx="303.16" cy="70.6" r="42.08"/>
+  <circle class="cls-5" cx="303.16" cy="70.6" r="29.84"/>
+  <circle class="cls-2" cx="303.16" cy="70.6" r="19.01"/>
+  <circle class="cls-4" cx="70.6" cy="70.6" r="55.3"/>
+  <circle class="cls-1" cx="70.6" cy="70.6" r="42.08"/>
+  <circle class="cls-5" cx="70.6" cy="70.6" r="29.84"/>
+  <circle class="cls-2" cx="70.6" cy="70.6" r="19.01"/>
+  <path class="cls-3" d="M234.06,70.6c0-38.16,30.94-69.1,69.1-69.1s69.1,30.94,69.1,69.1-30.94,69.1-69.1,69.1c-3.85,0-6.89-.43-10.57-1.04h0c7.91,15.85,12.36,33.73,12.36,52.65,0,65.19-52.85,118.04-118.04,118.04s-118.04-52.85-118.04-118.04c0-18.68,4.34-36.34,12.06-52.04-3.52.55-6.66.43-10.33.43C32.44,139.7,1.5,108.76,1.5,70.6S32.44,1.5,70.6,1.5s69.1,30.94,69.1,69.1c0,4.55-.52,8.79-1.36,13.1,14.81-6.7,31.26-10.43,48.57-10.43s33.7,3.72,48.5,10.39c0,0-1.34-8.53-1.34-13.06Z"/>
+</svg>
